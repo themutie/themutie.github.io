@@ -1,12 +1,10 @@
 <!-- Portfolio Modals -->
 {% for post in site.posts %}
-<div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
-  aria-hidden="true">
+<div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
-        <div class="rl">
-        </div>
+        <div class="rl"></div>
       </div>
     </div>
     <div class="container">
@@ -16,41 +14,40 @@
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
+            
             <ul class="list-inline item-details">
               {% if post.client %}
-              <li>Client:
-                <strong>{{ post.client }}</strong>
-              </li>
+              <li>Client: <strong>{{ post.client }}</strong></li>
               {% endif %}
               {% if post.project-date %}
-              <li>Date:
-                <strong>{{ post.project-date }}</strong>
-              </li>
+              <li>Date: <strong>{{ post.project-date }}</strong></li>
               {% endif %}
               {% if post.category %}
-              <li>Service:
-                <strong>{{ post.category }}</strong>
-              </li>
+              <li>Service: <strong>{{ post.category }}</strong></li>
               {% endif %}
             </ul>
+            
             <br>
+            
             {% if post.tracks %}
             <ol>
-            {% for track in post.tracks %}
-            <li>
-              <div>
-                <p>{{ track.track.name }}</p>
-                <audio controls src="{{ track.track.path }}">
-                  <a href="{{ track.track.path }}">Download audio</a>
-                </audio>
-              </div>
-            </li>
-            {% endfor %}
+              {% for track in post.tracks %}
+              <li>
+                <div>
+                  <p>{{ track.track.name }}</p>
+                  <!-- Add unique ID for each audio element -->
+                  <audio class="track" controls id="track-{{ forloop.index }}" src="{{ track.track.path }}">
+                    <a href="{{ track.track.path }}">Download audio</a>
+                  </audio>
+                </div>
+              </li>
+              {% endfor %}
             </ol>
-            {% endif %} <!-- Close post.tracks if -->
+            {% endif %}
           </div>
         </div>
       </div>
@@ -58,3 +55,23 @@
   </div>
 </div>
 {% endfor %}
+
+<script>
+  // Track the currently playing audio element
+  let currentAudio = null;
+
+  // Get all audio elements with the class 'track'
+  const audioElements = document.querySelectorAll('audio.track');
+
+  // Add event listeners to handle play events
+  audioElements.forEach(audio => {
+    audio.addEventListener('play', function() {
+      // If another audio is playing, pause it
+      if (currentAudio && currentAudio !== audio) {
+        currentAudio.pause();
+      }
+      // Update currentAudio to the newly playing one
+      currentAudio = audio;
+    });
+  });
+</script>
