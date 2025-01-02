@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 4
+modal-id: 6
 date: 2017-10-31
 img: phantoms_anthems.png
 album_name: Items of Interest
