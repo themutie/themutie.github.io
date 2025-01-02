@@ -1,10 +1,10 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
+title: The Muties
+email: muties69420@gmail.com
+url: https://themuties.bandcamp.com/
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+skills: "Psychedelic-garage-punk-rock’n’roll band from Cincinnati, Ohio"
 meta_author: LastName FirstName
 
 # Google webmaster tools
@@ -25,10 +25,10 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: ff00ff # Bright magenta
+  primary-rgb: "255,0,255" # Magenta RGB
+  secondary: 008b8b # Electric cyan
+  secondary-dark: ff9900 # Vibrant orange
 
 # Footer settings
 footer:
@@ -39,16 +39,16 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: instagram 
+    url: https://www.instagram.com/themuties
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: https://www.facebook.com/p/The-Muties-100063560576799
+  - title: bandcamp
+    url: https://themuties.bandcamp.com
+  - title: spotify
+    url: https://open.spotify.com/artist/5uXXanx30i2X0zAZU4c9Ri
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/themutie/themutie.github.io
 
 # Postal address (add as many lines as necessary)
 address:
