@@ -35,7 +35,6 @@
                 <strong>{{ post.category }}</strong>
               </li>
               {% endif %}
-
             </ul>
             <br>
             {% if post.tracks %}
@@ -43,17 +42,19 @@
             {% for track in post.tracks %}
             <li>
               <div>
-            <p>{{ track.track.name }}</p>
-                        <audio
-                controls
-                src="{{ track.track.path }}">
-                    <a href="{{ track.track.path }}">
-                        Download audio
-                    </a>
-            </audio>
-            
-</div>
-          </li>
+                <p>{{ track.track.name }}</p>
+                <audio controls src="{{ track.track.path }}">
+                  <a href="{{ track.track.path }}">Download audio</a>
+                </audio>
+              </div>
+            </li>
             {% endfor %}
-          </ol>
-          
+            </ol>
+            {% endif %} <!-- Close post.tracks if -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
