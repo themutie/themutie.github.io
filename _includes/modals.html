@@ -63,15 +63,31 @@
   // Get all audio elements with the class 'track'
   const audioElements = document.querySelectorAll('audio.track');
 
-  // Add event listeners to handle play events
-  audioElements.forEach(audio => {
-    audio.addEventListener('play', function() {
-      // If another audio is playing, pause it
+  // Add event listeners for each audio element
+  audioElements.forEach((audio, index) => {
+    // Handle play events
+    audio.addEventListener('play', function () {
+      // If another audio is playing, pause it and reset its time
       if (currentAudio && currentAudio !== audio) {
         currentAudio.pause();
+        currentAudio.currentTime = 0;
       }
       // Update currentAudio to the newly playing one
       currentAudio = audio;
     });
+
+    // Handle ended event to move to the next track
+    audio.addEventListener('ended', function () {
+      const nextIndex = index + 1; // Find the next track index
+      if (nextIndex < audioElements.length) {
+        const nextAudio = audioElements[nextIndex];
+        nextAudio.play(); // Play the next track
+      } else {
+        // Reset to the first track if it's the last one
+        audioElements[0].play();
+      }
+    });
   });
 </script>
+
+
