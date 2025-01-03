@@ -1,0 +1,11 @@
+---
+title: "The Sound Farm"
+date: 2023-09-30
+img: "the_sound_farm.jpg"
+alt: "The Sound Farm"
+modal-id: "3"
+---
+
+Saturday October 14 catch the Muties live in distant Adams County!
+
+![The Sound Farm](img/announcements/the_sound_farm.jpg)

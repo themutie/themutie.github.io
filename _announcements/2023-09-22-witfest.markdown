@@ -1,0 +1,13 @@
+---
+title: "Witfest 2022"
+date: 2022-09-22
+img: "witfest2022.jpg"
+alt: "Witfest 2022"
+modal-id: "1"
+---
+
+So stoked for Witfest next weekend! The Muties are set to take the stage at 9:40 on Friday Sept 29! Reach out to one of us if you need the address!
+
+
+
+![Witfest](img/announcements/witfest2022.jpg)

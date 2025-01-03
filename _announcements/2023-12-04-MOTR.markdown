@@ -1,0 +1,13 @@
+---
+title: "MOTR"
+date: 2023-12-04
+img: "motr.jpg"
+alt: "MOTR"
+modal-id: "5"
+---
+
+We are stoked to return to MOTR Pub this Friday for a show with Bazhooley and Datura! The Muties will hit the stage around midnight. Come on down if you're game for late night rock'n'roll fun!
+
+
+
+![MOTR Pub](img/announcements/motr.jpg)

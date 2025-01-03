@@ -1,0 +1,61 @@
+<!-- Announcements Section -->
+<section id="announcements">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Announcements</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="scrollable-list">
+      {% assign reversed_announcements = site.announcements | sort: 'date' | reverse %}
+      {% for announcement in reversed_announcements %}
+      <div class="announcement-item">
+        <a href="#announcementModal-{{ announcement.modal-id }}" class="announcement-link" data-toggle="modal">
+          <img src="img/announcements/{{ announcement.img }}" class="img-responsive" alt="{{ announcement.alt }}">
+          <h3>{{ announcement.title }}</h3>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+
+
+<style>
+.scrollable-list {
+  max-height: 400px; /* Set the desired max height */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  padding: 10px; /* Optional: add some padding */
+}
+
+.announcement-item {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin-bottom: 20px; /* Add space between items */
+}
+
+.announcement-link {
+  display: flex; 
+  align-items: center; /* Ensure the link contents are aligned */
+  width: 100%; /* Ensure the link takes the full width */
+}
+
+.announcement-item img {
+  width: 50px; /* Set a fixed width for thumbnails */
+  height: auto;
+  margin-right: 20px; /* Space between image and title */
+}
+
+.announcement-item h3 {
+  margin: 0; /* Remove default margin */
+  flex: 1; /* Ensure the title takes up remaining space */
+  display: inline; /* Ensure the title stays on the same line as the thumbnail */
+}
+
+
+
+
+</style>
