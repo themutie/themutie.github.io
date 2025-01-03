@@ -6,8 +6,6 @@ img: good_woods.png
 album_name: Items of Interest
 alt: image-alt
 project-date: June 2022
-client: Start Bootstrap
-category: Web Development
 description: "Ashley Dove...backup vocals<br>
 Devin Fields...drum kit<br>
 Matt Stewart...acoustic guitars, electric guitars<br>

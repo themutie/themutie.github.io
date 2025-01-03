@@ -6,8 +6,6 @@ img: remutation_vol_1.png
 album_name: REMUTATION VOL. 1
 alt: image-alt
 project-date: December 2024
-client: Start Bootstrap
-category: Web Development
 description: "A SMATTERING OF OUR LIVE STAPLES
 REVISITED WITH FULL BAND VISCERA
 SCRAPED THRU AN ARCANE SIEVE
@@ -40,25 +38,25 @@ CONCEIVED & CONJURED BY THE TOMFATHER
 "
 tracks:
     - track: 
-        name: 01 ABSORBING
+        name: ABSORBING
         path: aud/albums/remutation_vol_1/The Muties - REMUTATION VOL. 1 - 01 ABSORBING.mp3
     - track:
-        name: 02 CREATURE VIOLENCE
+        name: CREATURE VIOLENCE
         path: aud/albums/remutation_vol_1/The Muties - REMUTATION VOL. 1 - 02 CREATURE VIOLENCE.mp3
     - track: 
-        name: 03 SLEEP WITH THE FISHES
+        name: SLEEP WITH THE FISHES
         path: aud/albums/remutation_vol_1/The Muties - REMUTATION VOL. 1 - 03 SLEEP WITH THE FISHES.mp3
     - track:
-        name: 04 KALEIDOSCOPE
+        name: KALEIDOSCOPE
         path: aud/albums/remutation_vol_1/The Muties - REMUTATION VOL. 1 - 04 KALEIDOSCOPE.mp3
     - track: 
-        name: 05 DREAMS WON'T DO
+        name: DREAMS WON'T DO
         path: aud/albums/remutation_vol_1/The Muties - REMUTATION VOL. 1 - 05 DREAMS WON'T DO.mp3
     - track:
-        name: 06 WINTER WARLOCK
+        name: WINTER WARLOCK
         path: aud/albums/remutation_vol_1/The Muties - REMUTATION VOL. 1 - 06 WINTER WARLOCK.mp3
     - track: 
-        name: 07 THE HOOVES OF WRATH
+        name: THE HOOVES OF WRATH
         path: aud/albums/remutation_vol_1/The Muties - REMUTATION VOL. 1 - 07 THE HOOVES OF WRATH.mp3
 ---
 <!-- # Hello world

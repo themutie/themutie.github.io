@@ -6,8 +6,6 @@ img: hooves_of_wrath.png
 album_name: Hooves of Wrath
 alt: image-alt
 project-date: June 2022
-client: Start Bootstrap
-category: Web Development
 description: "
 Ashley Dove - electric cello<br>
 Matt Stewart - electric guitars,<br> acoustic guitars, bass<br>
