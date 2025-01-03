@@ -87,7 +87,7 @@
   });
   </script>
 <style>
-  /* Desktop layout: track number, title, and player in a row */
+  /* Desktop and larger screen layout */
   .track-row {
     display: flex;
     align-items: center;
@@ -114,21 +114,21 @@
     flex-shrink: 0;
   }
 
-  /* Mobile layout: stack elements vertically */
+  /* Mobile layout: keep number and title on the same line */
   @media (max-width: 768px) {
     .track-row {
-      display: block;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap; /* Allow wrapping if necessary */
     }
 
     .track-number {
-      display: block;
-      margin-right: 0;
-      text-align: left;
+      margin-right: 0.5rem;
+      min-width: auto;
     }
 
     .track-title {
-      display: block;
-      margin: 0.5rem 0;
+      margin-right: 0.5rem;
       white-space: normal;
     }
 
