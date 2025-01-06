@@ -1,0 +1,86 @@
+---
+layout: default
+modal-id: 7
+date: 2020-09-27
+img: sir_fish.png
+album_name: SiR FiSH
+alt: image-alt
+project-date: September 2020
+description: |
+  The Creature from the Black Lagoon
+  The Incredible Mr. Limpet
+  Cyrano de Bergerac
+  & a bad pun
+
+  Mix them all & you get Sir Fish, an excursion by The Muties into the Realms of Aqua-Rock chronicling the adventures of the titular hero.
+
+  Our maiden voyage into these waters was disastrously botched due to a tragic technical blunder. Only 7 rough mixes survived (tracks 6-12).
+
+  We rallied our ambitions & a second attempt was made. Sadly, this vessel also sank before long, leaving 5 songs salvageable (tracks 1-5).
+
+  As such, the story of Sir Fish remains incomplete. Some songs appear twice, others not at all (!).
+
+  But who knows what the fish's future may hold or what grime-encrusted treasures may float up from the murky depths.
+
+  (Download comes with a bonus track!)
+credits:
+  released: September 27, 2020
+  recording_details: |
+    Tracks 1-5 recorded 2019 & 2020
+    Tracks 6-12 recorded 2018
+
+    All songs by The Muties
+
+    Charlie Taylor - guitars; keyboards; sax; cowbell; handclaps; vocals on 3, 8, 9, 10, & 11; bass on 7, 8, 11, 12; drums on 8 & 11
+
+    Jake Taylor - vocals; drums; piano; tambourine; maracas; handclaps; samples & sounds; bass on 1-6, 9, 10; guitars on 8 & 11
+
+    FEATURING:
+    Cole Taylor - trumpet on 10
+    Matt Stewart - backup vocals & handclaps on 11
+
+    Artwork by Luke Effler
+
+    THANKS!!!!!!!!!!
+license: free
+tracks:
+  - track:
+      name: Fish Face (2020)
+      path: aud/albums/sir_fish/01 Fish Face (2020).mp3
+  - track:
+      name: Overflow (2020)
+      path: aud/albums/sir_fish/02 Overflow (2020).mp3
+  - track:
+      name: Thunderous Love (2020)
+      path: aud/albums/sir_fish/03 Thunderous Love (2020).mp3
+  - track:
+      name: Blastula (2020)
+      path: aud/albums/sir_fish/04 Blastula (2020).mp3
+  - track:
+      name: Super Blue Blood Moon (2020)
+      path: aud/albums/sir_fish/05 Super Blue Blood Moon (2020).mp3
+  - track:
+      name: Fish Face (2018)
+      path: aud/albums/sir_fish/06 Fish Face (2018).mp3
+  - track:
+      name: Overflow (2018)
+      path: aud/albums/sir_fish/07 Overflow (2018).mp3
+  - track:
+      name: Sleep With The Fishes (2018)
+      path: aud/albums/sir_fish/08 Sleep With The Fishes (2018).mp3
+  - track:
+      name: Thunderous Love (2018)
+      path: aud/albums/sir_fish/09 Thunderous Love (2018).mp3
+  - track:
+      name: Blastula (2018)
+      path: aud/albums/sir_fish/10 Blastula (2018).mp3
+  - track:
+      name: Wave Bird (2018)
+      path: aud/albums/sir_fish/11 Wave Bird (2018).mp3
+  - track:
+      name: Sir Fish Seals His Fate (2018)
+      path: aud/albums/sir_fish/12 Sir Fish Seals His Fate (2018).mp3
+  - track:
+      name: Sleep With The Fishes (2016) - J.T. solo demo
+      path: aud/albums/sir_fish/13 Sleep With The Fishes (2016) -J.T. solo demo-.mp3
+---
